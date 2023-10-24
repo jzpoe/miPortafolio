@@ -1,24 +1,23 @@
-import Home from "./componet/Home";
-import Projects from "./componet/Projects";
-import Contact from "./componet/Contact";
+import Home from "./componet/home/Home";
+import Formulario from "./customHook/Formulario";
 
-import './imagen.css'
 import "./index.css";
+import Navbar from "./navbar/Navbar";
+import Footer from "./footer/Footer";
+import Proyectos from "./carrusel/proyectos/Proyectos";
 
 function App() {
   return (
     <>
       <section className="layout">
-        <div className="column">
+        <Navbar/>
           <Home />
-        </div>
-        <div className="column">
-          <Projects />
-        </div>
-        <div className="column">
-          <Contact />
-        </div>
+        <Proyectos/>
+          
+          
         
+          <Formulario />
+          <Footer/>
       </section>
       
     </>

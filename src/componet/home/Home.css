@@ -1,0 +1,47 @@
+
+
+.container-ppal{
+
+    
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en una columna */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    padding: 10px;
+
+    display: grid;
+  grid-template-columns: 1fr; /* Dos columnas de igual ancho */
+  grid-template-rows: auto; /* El alto se ajustará al contenido */
+  grid-column-gap: 20px; /* Espacio entre las columnas */
+  align-items: start; /* Alinea los elementos en la parte superior de las filas */
+
+}
+
+.text-container{
+
+    margin: 0;
+    margin: 50px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .container-ppal {
+      grid-template-columns: 1fr; /* Cambiar a una sola columna en pantallas más pequeñas */
+      grid-column-gap: 0; /* Eliminar el espacio entre columnas */
+  }
+
+  .text-container {
+      margin: 20px; /* Reducir el margen */
+      font-size: 18px; /* Reducir el tamaño del texto */
+  }
+}
+
+
+/* Media query para tamaños de pantalla aún más pequeños, como dispositivos móviles */
+@media (max-width: 480px) {
+  .text-container {
+      margin: 10px; /* Ajustar el margen nuevamente */
+      font-size: 16px; /* Reducir aún más el tamaño del texto */
+  }
+}

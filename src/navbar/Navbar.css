@@ -1,0 +1,64 @@
+.container-navbar {
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2));
+    color: white;
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en una columna */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    padding: 10px;
+
+  }
+  
+  /* Estilos para el encabezado */
+  .nav-h2 {
+    font-size: 24px;
+    margin: 0;
+    margin: 20px;
+    color: aliceblue;
+
+  }
+  
+  .container-img {
+    width: 150px; /* Establece el ancho deseado */
+    height: 150px; /* Establece la altura deseada */
+    border-radius: 50%; /* Aplica bordes redondeados para que la imagen sea circular (si lo deseas) */
+    border: 2px solid #fff; /* Agrega un borde blanco alrededor de la imagen */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Agrega una sombra suave a la imagen */
+
+  }
+
+  .container-leftArrow-rightArrow{
+    width: auto;
+  }
+  @media (max-width: 768px) {
+    .container-navbar {
+        height: auto; /* Cambiar la altura a automática para adaptarse al contenido */
+        padding: 20px; /* Incrementar el relleno para mayor espaciado */
+    }
+
+    .nav-h2 {
+        font-size: 20px; /* Reducir el tamaño del texto */
+    }
+
+    .container-img {
+        width: 100px; /* Reducir el tamaño de la imagen */
+        height: 100px;
+    }
+}
+
+/* Media query para tamaños de pantalla aún más pequeños, como dispositivos móviles */
+@media (max-width: 480px) {
+    .container-navbar {
+        padding: 10px; /* Ajustar el relleno nuevamente */
+    }
+
+    .nav-h2 {
+        font-size: 18px; /* Reducir el tamaño del texto */
+    }
+
+    .container-img {
+        width: 80px; /* Reducir aún más el tamaño de la imagen */
+        height: 80px;
+    }
+}

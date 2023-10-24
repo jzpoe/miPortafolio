@@ -1,0 +1,28 @@
+.container-footer{
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2));
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.imgInstagram{
+    background-color: none;
+   
+}
+
+svg path {
+    fill: red;
+  }
+
+  @media (max-width: 768px) {
+    .container-footer {
+        padding: 10px; /* Reducir el relleno para adaptarse a pantallas más pequeñas */
+    }
+}
+
+/* Media query para tamaños de pantalla aún más pequeños, como dispositivos móviles */
+@media (max-width: 480px) {
+    .container-footer {
+        padding: 5px; /* Reducir el relleno aún más */
+    }
+}

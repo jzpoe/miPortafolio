@@ -1,3 +1,5 @@
+
+import "./Formulario.css"
 import { useForm } from "react-hook-form";
 
 const Formulario = () => {
@@ -8,8 +10,8 @@ const onSumbit = (data) => {
   console.log(data)
 }
   return (
-    <div >
-      <form onSubmit={handleSubmit(onSumbit)}  className="Formulario" >
+    <div>
+      <form onSubmit={handleSubmit(onSumbit)}   >
       <div>
         <label className="form1">Nombre</label>
         <input className="form2" type="text" {...register('nombre', {
@@ -35,7 +37,10 @@ const onSumbit = (data) => {
         <input type="submit" value="enviar"  />
     
     </form>
+
     </div>
+      
+    
   
   )
 }
