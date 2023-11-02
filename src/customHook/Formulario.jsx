@@ -34,7 +34,7 @@ const onSumbit = (data) => {
         })} />
         {errors.correo?.type === 'pattern' && <p>el correo es invalido</p> }
         </div>
-        <input type="submit" value="enviar"  />
+        <input type="submit" value="Contactame !!"  />
     
     </form>
 

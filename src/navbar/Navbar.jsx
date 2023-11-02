@@ -1,4 +1,5 @@
 import './Navbar.css'
+import Foto from '../img/Foto';
 
 const Navbar = () => {
   return (
@@ -10,10 +11,8 @@ const Navbar = () => {
       
 
       <div >
-        <img className='container-img'
-          src="./src/img/avatar.png"
-          alt="avatar profile"
-        />
+      <Foto src={Foto} alt="avatar profile"/>
+        
       </div>
     </div>
   );

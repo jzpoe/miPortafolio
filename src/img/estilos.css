@@ -1,0 +1,9 @@
+.container-img {
+    width: 400px; /* Establece el ancho deseado */
+    height: 400px; /* Establece la altura deseada */
+    border-radius: 50%; /* Aplica bordes redondeados para que la imagen sea circular (si lo deseas) */
+    border: 2px solid #fff; /* Agrega un borde blanco alrededor de la imagen */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Agrega una sombra suave a la imagen */
+    padding: 10px;
+    margin-top: 20px;
+  }

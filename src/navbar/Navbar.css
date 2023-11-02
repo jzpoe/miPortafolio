@@ -1,5 +1,5 @@
 .container-navbar {
-    height: 500px;
+    height: 600px;
     background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2));
     color: white;
     display: flex;
@@ -43,15 +43,7 @@
     }
   }
   
-  .container-img {
-    width: 150px; /* Establece el ancho deseado */
-    height: 150px; /* Establece la altura deseada */
-    border-radius: 50%; /* Aplica bordes redondeados para que la imagen sea circular (si lo deseas) */
-    border: 2px solid #fff; /* Agrega un borde blanco alrededor de la imagen */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Agrega una sombra suave a la imagen */
-    padding: 10px;
-    margin-top: 20px;
-  }
+  
 
   .container-leftArrow-rightArrow{
     width: auto;
