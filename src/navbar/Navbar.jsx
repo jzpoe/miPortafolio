@@ -4,7 +4,10 @@ const Navbar = () => {
   return (
     <div className="container-navbar">
 
-      <h2 className="nav-h2">Perfil profesional </h2>
+    <div className="nav-h2">
+    <h2 className="smoke">Perfil profesional </h2>
+    </div>
+      
 
       <div >
         <img className='container-img'

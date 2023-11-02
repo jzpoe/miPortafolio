@@ -6,7 +6,7 @@ const Proyectos = () => {
         
         <div className="carrsule1">
             <h1>Proyectos</h1>
-        <Carrusel/>
+              <Carrusel/>
         
         </div>
         

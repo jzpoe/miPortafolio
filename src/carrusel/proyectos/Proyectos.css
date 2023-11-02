@@ -1,9 +1,12 @@
 .carrusel1 {
+  
     display: flex;
     justify-content: center;
     align-items: center; /* Alinea verticalmente al centro */
     text-align: center;
+    
   }
+ 
   
   h1 {
     text-align: center;
@@ -13,5 +16,6 @@
   @media (max-width: 768px) {
     .carrusel1, h1 {
       text-align: center; /* Alinea al centro en dispositivos móviles */
+      
     }
   }

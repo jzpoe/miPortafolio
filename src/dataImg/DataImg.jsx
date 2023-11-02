@@ -5,19 +5,19 @@ export const dataImg
 
     {
         id:1,
-        imgUrl: "./src/img/descargar.jpg",
+        imgUrl: "./src/img/taskList.png",
     },
 
     {
         id:2, 
         imgUrl: 
-         "./src/img/descargar.png",
+         "./src/img/TiendaLibros.png.png",
     },
 
     {
         id:3, 
         imgUrl: 
-         "./src/img/images.png",
+         "./src/img/inventario.png",
     },
 
     
