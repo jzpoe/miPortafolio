@@ -68,7 +68,7 @@
 @media (max-width: 480px) {
     .container-navbar {
         padding: 10px; /* Ajustar el relleno nuevamente */
-        height: 500px;
+        height: 400px;
     }
 
     .nav-h2 {
@@ -76,9 +76,20 @@
     }
 
     .container-img {
-        width: 150px; /* Reducir aún más el tamaño de la imagen */
-        height: 150px;
+        width: 50px; /* Reducir aún más el tamaño de la imagen */
+        height: 50px;
         padding: 10px;
         margin-top: 20px;
+    }
+    .smoke{
+      font-size: 35px;
+      margin-top: -30px;
+      font-weight: bold;
+    }
+    .nav-h2{
+      padding: 10px;
+      margin-top: 20px;
+      width: 100%;
+      height: 50px;
     }
 }

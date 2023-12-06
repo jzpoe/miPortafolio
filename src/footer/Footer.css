@@ -24,5 +24,9 @@ svg path {
 @media (max-width: 480px) {
     .container-footer {
         padding: 5px; /* Reducir el relleno aún más */
+        height: 30px;
+    }
+    .svg path{
+        height: 5px;
     }
 }

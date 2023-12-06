@@ -3,3 +3,13 @@
  width: 200px;
  height: 200px;
 }
+
+@media (max-width: 480px) {
+    .container-imagenes{
+        border-radius: 100px;
+    }
+    .containerProyectos{
+
+        border: 10px;
+    }
+}

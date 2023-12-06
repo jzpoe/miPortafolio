@@ -23,7 +23,7 @@
     margin: 50px;
     color: aliceblue;
     font-size: 30px;
-    
+    text-wrap: balance;
 }
 
 @media (max-width: 768px) {
@@ -44,5 +44,11 @@
   .text-container {
       margin: 10px; /* Ajustar el margen nuevamente */
       font-size: 16px; /* Reducir aún más el tamaño del texto */
+      text-wrap: balance;
+      font-weight: bold;
   }
+  .container-ppal {
+    margin-top: 10px;
+}
+
 }
