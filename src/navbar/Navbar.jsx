@@ -1,5 +1,5 @@
 import './Navbar.css'
-import Foto from '../img/Foto';
+import Foto from '../../public/Foto';
 
 const Navbar = () => {
   return (
