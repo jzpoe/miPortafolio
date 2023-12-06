@@ -4,7 +4,7 @@ import Formulario from "./customHook/Formulario";
 import "./index.css";
 import Navbar from "./navbar/Navbar";
 import Footer from "./footer/Footer";
-import Proyectos from "./carrusel/proyectos/Proyectos";
+import { Proyectos } from "./carrusel/proyectos/Proyectos";
 
 function App() {
   return (
@@ -12,8 +12,7 @@ function App() {
       <section className="layout">
         <Navbar/>
           <Home />
-        <Proyectos/>
-          
+          <Proyectos/>
           
         
           <Formulario />

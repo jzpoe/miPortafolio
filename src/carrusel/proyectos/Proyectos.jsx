@@ -1,7 +1,7 @@
 import Carrusel from "../Carrusel"
 import './Proyectos.css'
-import ProyectosHover from "./proyectosHover"
-const Proyectos = () => {
+import {ProyectosHover} from "../proyectos/ProyectosHover"
+export const Proyectos = () => {
   return (
     
         
@@ -16,4 +16,4 @@ const Proyectos = () => {
   )
 }
 
-export default Proyectos
+
