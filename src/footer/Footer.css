@@ -25,8 +25,16 @@ svg path {
     .container-footer {
         padding: 5px; /* Reducir el relleno aún más */
         height: 30px;
+       
     }
     .svg path{
         height: 5px;
+    }
+    .container-whatsapp .svg path{
+        fill: #25D366;
+    }
+    .img-whatsapp{
+        width: 50px;
+        height: 50px;
     }
 }
